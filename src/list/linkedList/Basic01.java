@@ -1,9 +1,14 @@
 package list.linkedList;
 
+import java.util.AbstractSequentialList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
+// public interface List<E> extends Collection<E> { ~ }
+// public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, java.io.Serializable { ~ }
 public class Basic01 {
 	public static void main(String[] args) {
 		
