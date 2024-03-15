@@ -10,13 +10,17 @@ public class Basic01 {
  *	1.
  */
 		int[] score = new int[5];
+		score[4] = 9;
+		score[1] = 11;
+		System.out.println(Arrays.toString(score)); // [0, 11, 0, 0, 9]
+
 		for (int i = 0; i < 3; i++) { 
 			score[i] = i * 10; 
 		}
 		System.out.println(score); // [I@3d012ddd
 		System.out.println(score[2]); // 20
 		System.out.println(score.length); // 5
-		System.out.println(Arrays.toString(score)); // [0, 10, 20, 0, 0]
+		System.out.println(Arrays.toString(score)); // [0, 10, 20, 0, 9]
 
 		
 /**
