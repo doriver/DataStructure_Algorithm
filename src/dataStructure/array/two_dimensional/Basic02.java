@@ -1,4 +1,4 @@
-package array.two_dimensional;
+package dataStructure.array.two_dimensional;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package queue.priority;
+package dataStructure.queue.priority;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
