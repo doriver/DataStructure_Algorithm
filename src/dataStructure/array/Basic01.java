@@ -35,12 +35,16 @@ public class Basic01 {
 /**
  *	3. 배열의 복사, 확장 
  *	배열은 한번 선언되고 나면 공간 자체를 직접 늘릴수없다
+ *	
+ *	Arrays.copyOf(elements, newSize);
+ *	원본 배열의 요소들을 새로운 크기의 배열로 복사
  */
 		int[] arr1 = {10, 20, 30}; // [I@3d012ddd
-		int[] arr2 = new int[arr1.length * 2]; // [I@626b2d4a
-		
+
+//		int[] arr2 = new int[arr1.length * 2]; // [I@626b2d4a
 //		for(int i = 0; i < arr1.length; i++) {	arr2[i] = arr1[i];	} // [10, 20, 30, 0, 0, 0]	
-		arr2 = Arrays.copyOf(arr1, arr1.length); // [10, 20, 30]
+		
+		int[] arr2 = Arrays.copyOf(arr1, arr1.length * 2); // [10, 20, 30, 0, 0, 0]
 		
 		System.out.println(Arrays.toString(arr2));
 		
