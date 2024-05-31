@@ -11,7 +11,7 @@ public class MyGraph01 {
 	private int numVertices; // 그래프의 정점수
 	private List<List<Integer>> adjLists; // 각 정점의 인접리스트를 저장하는 리스트
 	
-	 // 생성자: 정점의 수를 받아 초기화
+	// 생성자: 정점의 수를 받아 초기화
 	public MyGraph01(int numVertices) {
 		this.numVertices = numVertices;
 		adjLists = new LinkedList<>();
