@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * DFS(깊이 우선 탐색, Depth-First Search)
  * 
- * 방향 그래프(Directed Graph)를 표현한 것
+ * 방향그래프(Directed Graph)를 표현한 것
  * 재귀(Recursion) 이용, 그래프를 인접 리스트로 표현
  * 
  * dataStructure.graph.MyGraph01 에서 구현했던 그래프는 간선추가할때 정점2개에 각각 추가해줬는데, 여기선 정점 하나에만 추가해줌

@@ -1,4 +1,4 @@
-package dataStructure.tree.binaryTree;
+package algorithm.dfs;
 /**
  * DFS를 사용해, 이진 트리를 구현 
  */
