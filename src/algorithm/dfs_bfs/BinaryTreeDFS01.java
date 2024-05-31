@@ -1,6 +1,6 @@
-package algorithm.dfs;
+package algorithm.dfs_bfs;
 /**
- * DFS를 사용해, 이진 트리를 구현 
+ * 이진트리에서 DFS 
  */
 
 class TreeNode {

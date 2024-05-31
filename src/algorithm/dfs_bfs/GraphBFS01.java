@@ -1,4 +1,4 @@
-package algorithm.dfs;
+package algorithm.dfs_bfs;
 
 import java.util.LinkedList;
 /**
