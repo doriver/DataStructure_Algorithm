@@ -98,7 +98,7 @@ public class MyLinkedList01 {
 				current.next = current.next.next;
 				return;
 			}
-			current = current.next; // current.next로 넘어가는 경우
+			current = current.next; // current.next로 넘어감
 		}
 	}
 	
