@@ -29,10 +29,14 @@ public class Basic01 {
 		// hashMap의 key값들을 Set으로 만들어줌
 		System.out.println(hashMap.keySet()); // [체리, 사과, 바나나]
 		
+		System.out.println(hashMap.remove("체리")); // 8
+		
 		// 모든 키-값 쌍 순회
 		for (String key : hashMap.keySet()) {
 			System.out.println(key + " " + hashMap.get(key));
-        }// 체리 8, 사과 15, 바나나 5
+        }// 사과 15, 바나나 5
+		
+		
 	}
 
 }

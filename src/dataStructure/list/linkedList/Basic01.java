@@ -48,9 +48,11 @@ System.out.println("   ======    1. 요소 추가/삽입    ======  ");
 		list.add(1, "포도");
 		System.out.println(list); // [사과, 포도, 귤, 토마토]
 		
+		list.remove("귤"); // index말고 원소로 삭제도 가능
+		
 		// 요소 순회
 		for (String fruit : list) {
-			System.out.println(fruit); // 포도, 귤, 토마토
+			System.out.println(fruit); // 사과, 포도, 토마토
 		}
 		
 System.out.println("   ======    2. 요소 삭제    ======  ");
