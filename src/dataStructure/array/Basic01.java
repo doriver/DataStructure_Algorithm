@@ -1,6 +1,7 @@
 package dataStructure.array;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Basic01 {
 
@@ -31,7 +32,9 @@ public class Basic01 {
 		Arrays.sort(arr); // 원소들을 정렬함
 		System.out.println(Arrays.toString(arr)); // [0, 1, 2, 3, 4]
 
-		
+		Integer[] aaa = {3,2,1,4 };
+		Arrays.sort(aaa, Collections.reverseOrder()); // [4, 3, 2, 1]
+		System.out.println(Arrays.toString(aaa)); 
 /**
  *	3. 배열의 복사, 확장 
  *	배열은 한번 선언되고 나면 공간 자체를 직접 늘릴수없다
