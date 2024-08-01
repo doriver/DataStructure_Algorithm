@@ -48,8 +48,10 @@ public class Basic01 {
 //		for(int i = 0; i < arr1.length; i++) {	arr2[i] = arr1[i];	} // [10, 20, 30, 0, 0, 0]	
 		
 		int[] arr2 = Arrays.copyOf(arr1, arr1.length * 2); // [10, 20, 30, 0, 0, 0]
+		int[] arr3 = Arrays.copyOfRange(arr2, 1, 4); // [20, 30, 0] , index1부터 4번째 까지
 		
 		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr3));
 		
 	}
 
