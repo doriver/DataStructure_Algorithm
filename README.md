@@ -8,4 +8,4 @@ stack    /MyStack01.java  이렇게  **" 자료구조 이름 / My자료구
 ### 기본적인 사용법    
 각 자료구조 패키지에 Basic.java 클래스에 간단 정리
 ## [src/algorithm 패키지](https://github.com/doriver/DataStructure_Algorithm/tree/master/src/algorithm)
-알고리즘 구현
+아직 DFS, BFS 만 구현을 했다.
