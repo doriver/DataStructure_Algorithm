@@ -16,7 +16,7 @@ public class MyInsertionSort {
 		System.out.println(Arrays.toString(aa));
 	}
 
-	
+	// while을 들리는 경우와 그렇지 않은경우
 	private static void insertion_sort(int[] a) {
 		int size = a.length;
 		int target = 0;
